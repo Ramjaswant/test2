@@ -11,6 +11,3 @@
           - show clock
       register : value
     - debug : var=value.stdout_lines
-        env:
-          DEFAULT_BRANCH: main
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
